@@ -87,13 +87,13 @@ body{
     color: lightgray;
     align-items: center;
 }
-#glasses img {
+#productPage img {
     margin: auto;
     align-items: center;
     width: 50%;
     height: 50%;
 }
-#glasses p {
+#productPage #glasses p {
     margin-top: 52px;
 }
 header a {
