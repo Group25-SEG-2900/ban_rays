@@ -7,18 +7,20 @@
 h1, h2, h3 {
     color: lightgray;
 }
-*{ margin: 0; 
+*{ 
+    margin: 0; 
    padding: 0; 
    box-sizing: border-box; 
 }
 body{ 
-    background: #323031; 
+    background: #323031;
+    margin: auto; 
 }
 .wrapper{ 
     margin-top: 60px;
 }
 .wrapper h1{ 
-    font-family:Verdana, Geneva, Tahoma, sans-serif 
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
     font-size: 52px; 
     margin-bottom: 40px; 
     text-align: center;
@@ -78,3 +80,29 @@ body{
     font-size: 15px; 
     margin-bottom: 20px;
     line-height: 18px;
+}
+#productPage {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: lightgray;
+    align-items: center;
+}
+#glasses img {
+    margin: auto;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+}
+#glasses p {
+    margin-top: 52px;
+}
+header a {
+    text-decoration: none;
+    color: lightgray;
+}
+#left {
+    float: left;
+}
+#right {
+    float: right;
+}
