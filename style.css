@@ -4,6 +4,20 @@
     margin-right: auto;
   }
 
+.centerLaptop {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -50;
+  }
+
+.centerGlasses {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -1025;
+}
+
 h1, h2, h3 {
     color: lightgray;
 }
