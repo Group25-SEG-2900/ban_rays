@@ -1,3 +1,6 @@
+header {
+    position: fixed;
+}
 .center {
     display: block;
     margin-left: auto;
