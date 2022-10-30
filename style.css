@@ -39,8 +39,7 @@ h1, h2, h3 {
  box-sizing: border-box; 
 }
 body{ 
-  background: #323031;
-  margin: auto; 
+  background: #323031; 
 }
 .wrapper{ 
   margin-top: 60px;
@@ -86,8 +85,8 @@ body{
   
 } 
 .team .team_member .team_img img{ 
-  width: 300px; 
-  height: 300px; 
+  width: 60%; 
+  height: 60%; 
 } 
 .wrapper .team .team_member h3{
   color: #3A405A;
