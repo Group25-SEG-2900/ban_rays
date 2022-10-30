@@ -120,15 +120,18 @@ body{
 #productPage #glasses p {
   margin-top: 52px;
 }
-
+header a {
+  text-decoration: none;
+  color: lightgray;
+}
 #left {
- float: left;
+  float: left;
 }
 #right {
- float: right;
+  float: right;
 }
 #right {
-   float: right;
+    float: right;
 }
 
 
