@@ -42,19 +42,27 @@ h1, h2, h3 {
 body{ 
     background:#A8DADC ; 
 }
+
+*{ margin: 0; 
+   padding: 0; 
+   box-sizing: border-box; 
+}
+body{ 
+    background: #A8DADC; 
+}
 .wrapper{ 
-    margin-top: 60px;
+    margin-top: 45px;
 }
 .wrapper h1{ 
-    font-family:Verdana, Geneva, Tahoma, sans-serif 
+    font-family:Calibri; 
     font-size: 52px; 
-    margin-bottom: 40px; 
+    margin-bottom: 30px; 
     text-align: center;
-    color: white;    
+    color: #45789D;    
 }
 .wrapper h1:after 
 {   content: ''; 
-    background:white; 
+    background:#45789D; 
     display: block; 
     height: 3px; 
     width: 150px; 
@@ -90,22 +98,26 @@ body{
     height: 60%; 
 } 
 .wrapper .team .team_member h3{
-    color: #3A405A;
+    color: #45789D;
     margin-top: 10px;
-    letter-spacing: 2px; 
+    letter-spacing: 2px;
+    font-family: Calibri ; 
 }
 .wrapper .team .team_member p.role{
-    color: black;
+    color: #1D3557;
     font-size: 10px;
     text-transform: uppercase;
     margin-top: 2px; 
     margin-bottom: 5px;
     font-weight: bold;
+    font-family: Calibri ; 
 } 
 .wrapper .team .team_member p{
     font-size: 15px; 
     margin-bottom: 20px;
     line-height: 18px;
+    color:  #1D3557;
+    font-family: Calibri ; 
 }
 #productPage {
   text-align: center;
