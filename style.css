@@ -134,3 +134,29 @@ header a {
 }
 
 
+.pricing{ 
+    display: flex; 
+    justify-content: center; 
+    width: auto; 
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px; 
+}
+
+.pricing button {
+  background-color: #3A405A;
+  border-radius: 5px;
+  border: 1px;
+}
+
+.pricing table {
+  border: 1px solid #e9e5fa;
+  border-spacing: 5px;
+  width: 400px;
+  height: 500px;
+}
+.pricing th, tr {
+  border: 1px solid #e9e5fa;
+  border-spacing: 5px;
+}
