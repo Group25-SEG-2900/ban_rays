@@ -148,7 +148,8 @@ header a {
 .pricing button {
   background-color: #3A405A;
   border-radius: 5px;
-  border: 1px;
+  width: 400px;
+  height: 100px;
 }
 
 .pricing table {
