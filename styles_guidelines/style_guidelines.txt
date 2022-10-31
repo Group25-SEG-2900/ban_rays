@@ -1,0 +1,25 @@
+﻿Logo
+
+
+  
+
+Colour Scheme 
+  
+
+*Note the numbers are hex codes
+
+
+Paragraph colours:#1D3557
+Heading colours: #45789D
+Background colours : #A8DADC
+Boxes: #F1FAEE  or white 
+Button colours: Red? 
+
+
+Typography
+Titles: Calibri, bold, 52px
+Subtitles: Calibri, 30px 
+Paragraphs:Calibri , 18px 
+
+
+Letter spacing: 2px
