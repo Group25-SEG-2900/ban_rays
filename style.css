@@ -144,9 +144,6 @@ header a {
 #right {
   float: right;
 }
-#right {
-    float: right;
-}
 
 .pricing{ 
     display: flex; 
