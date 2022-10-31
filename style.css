@@ -30,7 +30,7 @@ margin-top: -1025;
 }
 
 h1, h2, h3 {
-  color: lightgray; 
+  color: #45789D; 
 }
 
 *{ margin: 0; 
@@ -107,7 +107,7 @@ body{
 }
 #productPage {
   text-align: center;
-  color: lightgray;
+  color:  #45789D;
   align-items: center;
 }
 #productPage img {
@@ -121,7 +121,7 @@ body{
 }
 header a {
   text-decoration: none;
-  color: lightgray;
+  color:  #45789D;
 }
 #left {
   float: left;
