@@ -7,6 +7,10 @@ header {
 }
 
 .headerSpacing {
+  padding: 125;
+}
+
+.imgSpacing {
   padding: 75;
 }
 
@@ -27,14 +31,16 @@ hr {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: auto;
+  margin-top: -150;
+
 }
 
 .centerGlasses {
-display: block;
-margin-left: auto;
-margin-right: auto;
-margin-top: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+
 }
 
 h1, h2, h3 {
@@ -179,17 +185,15 @@ header a {
   border-spacing: 5px;
 }
 
-/* Style buttons */
 .btn {
-  background-color: #D5573B; /* Blue background */
-  border: none; /* Remove borders */
-  color: white; /* White text */
-  padding: 10px 10px; /* Some padding */
-  font-size: 16px; /* Set a font size */
-  cursor: pointer; /* Mouse pointer on hover */
+  background-color: #D5573B;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  font-size: 16px;
+  cursor: pointer;
 }
 
-/* Darker background on mouse-over */
 .btn:hover {
   background-color: #c04c32;
 }
