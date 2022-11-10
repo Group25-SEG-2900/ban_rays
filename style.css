@@ -63,7 +63,7 @@ body{
     background: #A8DADC; 
 }
 .wrapper{ 
-    margin-top: 45px;
+    margin-top: auto;
 }
 .wrapper h1{ 
     font-family:Calibri; 
@@ -161,7 +161,7 @@ header a {
     justify-content: center; 
     width: auto; 
     text-align: center;
-    margin-top: 50px;
+    margin-top: auto;
     margin-left: 50px;
     margin-right: 50px; 
 }
@@ -194,6 +194,35 @@ header a {
   cursor: pointer;
 }
 
+.searchBtn {
+  background-color: #D5573B;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  font-size: 16px;
+  margin-top: -36px;
+  cursor: pointer;
+}
+
 .btn:hover {
   background-color: #c04c32;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav input[type=text] {
+  float: right;
+  padding: 8.3px;
+  border: none;
+  margin-top: -36px;
+  margin-right: 37px;
+  font-size: 17px;
 }
