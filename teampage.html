@@ -23,18 +23,19 @@
                 <button class="btn" onclick="location.href='./pricing.html'"><i class="fa-solid fa-tags"></i> Pricing</button>
                 <button class="btn" onclick="location.href='./teampage.html'"><i class="fa-solid fa-people-group"></i> About Us</button>
             </div>
-            
-            <div class="topnav" style="text-align: right;">
-                <input type="text" placeholder="Search..">
-                <button class="searchBtn" onclick="search()"><i class="fa-solid fa-magnifying-glass"></i></button>
-            </div>
-            
+
+            <form action="https://google.com/search" method="get" class="topnav" style="text-align: right;">
+                <input type="hidden" name="sitesearch"/>
+                <input type="text" name="q" placeholder="Search..."/>
+                <button class="searchBtn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+
             <hr class="hr">
         </header>
-    <div class= "wrapper"> 
+    <div class="wrapper" style="position:relative; top: 130px;"> 
          <h1>Meet Our Team </h1>
          <div class = "team">
-              <div class = " team_member">
+              <div class ="team_member">
                   <div class = "team_img"> 
                       <img src = "https://i.pinimg.com/736x/42/c4/ab/42c4ab1c6b866b4dec06bf67faf92eb6.jpg" alt="photo of team member" > 
 
@@ -52,27 +53,27 @@
                   <p class = "role"> Product Person </p> 
                   <p> This is where you put what every team is doing like a little get to know me </p>
                </div> 
-              <div class = " team_member">
-                  <div class = "team_img"> 
-                      <img src = "https://i.pinimg.com/736x/42/c4/ab/42c4ab1c6b866b4dec06bf67faf92eb6.jpg" alt="photo of team member">
+                <div class = " team_member">
+                    <div class = "team_img"> 
+                        <img src = "https://i.pinimg.com/736x/42/c4/ab/42c4ab1c6b866b4dec06bf67faf92eb6.jpg" alt="photo of team member">
                             
-                  </div>
+                    </div>
                   <h3> Akram Boufennara</h3> 
                   <p class = "role"> Product Person </p> 
                   <p> This is where you put what every team is doing like a little get to know me </p>
-                  </div>  
+                </div>  
                   <div class= "social_media"
                        <ion-icon name="logo-github"></ion-icon>
                   </div> 
-              <div class = " team_member">
-                  <div class = "team_img"> 
-                      <img src = "https://i.pinimg.com/736x/42/c4/ab/42c4ab1c6b866b4dec06bf67faf92eb6.jpg" alt="photo of team member">
+                <div class = " team_member">
+                    <div class = "team_img"> 
+                        <img src = "https://i.pinimg.com/736x/42/c4/ab/42c4ab1c6b866b4dec06bf67faf92eb6.jpg" alt="photo of team member">
                            
-                  </div>
+                    </div>
                   <h3> Eric Hagen </h3> 
                   <p class = "role"> Product Person </p> 
                   <p> This is where you put what every team is doing like a little get to know me </p>
-               </div>  
+                </div>  
               <div class = " team_member">
                   <div class = "team_img"> 
                       <img src = "https://i.pinimg.com/736x/42/c4/ab/42c4ab1c6b866b4dec06bf67faf92eb6.jpg" alt="photo of team member">
@@ -81,6 +82,7 @@
                   <h3> David Klimantovich </h3> 
                   <p class = "role"> Product Person </p> 
                   <p> This is where you put what every team is doing like a little get to know me </p>
+              </div>
           </div> 
           
         <!-- Load external JavaScript -->
