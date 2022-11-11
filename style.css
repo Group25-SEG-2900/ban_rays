@@ -3,7 +3,6 @@ header {
   position: fixed;
   width: 100%;
   z-index: 1;
-  margin-top: auto;
 }
 
 .headerSpacing {
@@ -68,7 +67,7 @@ body{
 .wrapper h1{ 
     font-family:Calibri; 
     font-size: 52px; 
-    margin-bottom: 30px; 
+    margin-bottom: 20px; 
     text-align: center;
     color: #45789D;    
 }
