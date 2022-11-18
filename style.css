@@ -58,9 +58,7 @@ body{
    padding: 0; 
    box-sizing: border-box; 
 }
-body{ 
-    background: #A8DADC; 
-}
+
 .wrapper{ 
     margin-top: auto;
 }
@@ -155,6 +153,35 @@ header a {
   float: right;
 }
 
+.pricing{ 
+    display: flex; 
+    justify-content: center; 
+    width: auto; 
+    text-align: center;
+    margin-top: auto;
+    margin-left: 50px;
+    margin-right: 50px; 
+}
+
+.pricing button {
+  background-color: #3A405A;
+  border-radius: 5px;
+  width: 400px;
+  height: 100px;
+}
+
+.pricing table {
+  border: 1px solid #e9e5fa;
+  border-spacing: 5px;
+  width: 400px;
+  height: 500px;
+}
+
+.pricing th, tr {
+  border: 1px solid #e9e5fa;
+  border-spacing: 5px;
+}
+
 .btn {
   background-color: #D5573B;
   border: none;
@@ -198,23 +225,10 @@ header a {
 }
 
 
-body{ 
-    background:#A8DADC ; 
-}
-
-.pricing{
-    display: flex; 
-    justify-content: center; 
-    width: auto; 
-    text-align: center;
-    margin-left: 50px;
-    margin-right: 50px; 
-    margin-top : 70px; 
-}
 .pricing .options{
     width: auto; 
     height:auto; 
-    margin: 10px; 
+    margin: 10px;
     background: #fff; 
     padding: 50px 40px 100px; 
     border-radius: 5px; 
@@ -269,4 +283,3 @@ body{
     display: block; 
     color: white; 
 } 
-
