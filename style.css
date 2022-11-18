@@ -263,6 +263,7 @@ header a {
     margin-bottom: 5px; 
     margin-top: 5 px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center; 
 }
 .pricing .options .price{ 
     margin-top: 50px;;
