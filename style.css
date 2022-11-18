@@ -197,13 +197,6 @@ header a {
   font-size: 17px;
 }
 
-*{
-    margin: 0; 
-    padding: 0; 
-    box-sizing: border-box; 
-    text-decoration: none; 
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
 
 body{ 
     background:#A8DADC ; 
@@ -234,12 +227,17 @@ body{
 }
 .pricing .options.option_1 h3{ 
     color: #69b0bb; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 .pricing .options.option_2 h3{ 
     color: #69b0bb; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .pricing .options.option_3 h3{ 
     color: #69b0bb; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 .pricing .options img{
     display: block; 
@@ -250,8 +248,8 @@ body{
     font-size: 15px; 
     color: #1D3557; 
     margin-bottom: 5px; 
-    margin-top: 5 px; 
-
+    margin-top: 5 px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .pricing .options .price{ 
     margin-top: 50px;;
