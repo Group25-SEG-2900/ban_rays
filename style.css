@@ -155,33 +155,7 @@ header a {
   float: right;
 }
 
-.pricing{ 
-    display: flex; 
-    justify-content: center; 
-    width: auto; 
-    text-align: center;
-    margin-top: auto;
-    margin-left: 50px;
-    margin-right: 50px; 
-}
 
-.pricing button {
-  background-color: #3A405A;
-  border-radius: 5px;
-  width: 400px;
-  height: 100px;
-}
-
-.pricing table {
-  border: 1px solid #e9e5fa;
-  border-spacing: 5px;
-  width: 400px;
-  height: 500px;
-}
-
-.pricing th, tr {
-  border: 1px solid #e9e5fa;
-  border-spacing: 5px;
 }
 
 .btn {
@@ -237,7 +211,7 @@ header a {
 body{
     background: #eeeeee;
 }
-.wrapper{
+.pricing{
     display: flex; 
     justify-content: center; 
     width: auto; 
@@ -246,7 +220,7 @@ body{
     margin-right: 50px; 
     margin-top : 70px; 
 }
-.wrapper .options{
+.pricing .options{
     width: auto; 
     height:auto; 
     margin: 10px; 
@@ -256,35 +230,35 @@ body{
     border: 1px solid #e6e6e6; 
     position: relative; 
 }
-.wrapper .options h3{ 
+.pricing .options h3{ 
     letter-spacing: 2px;
     margin-top: 15px; 
 }
-.wrapper .options.option_1 h3{ 
+.pricing .options.option_1 h3{ 
     color: #69b0bb; 
 }
-.wrapper .options.option_2 h3{ 
+.pricing .options.option_2 h3{ 
     color: #69b0bb; 
 }
-.wrapper .options.option_3 h3{ 
+.pricing .options.option_3 h3{ 
     color: #69b0bb; 
 }
-.wrapper .options img{
+.pricing .options img{
     display: block; 
     width: 180px; 
     margin: 10px auto; 
 }
-.wrapper .options .info p{ 
+.pricing .options .info p{ 
     font-size: 15px; 
     color: #1D3557; 
     margin-bottom: 5px; 
     margin-top: 5 px; 
 
 }
-.wrapper .options .price{ 
+.pricing .options .price{ 
     margin-top: 50px;;
 }
-.wrapper .options .button{ 
+.pricing .options .button{ 
     position: absolute; 
     bottom: 0; 
     left: 50%; 
@@ -295,7 +269,7 @@ body{
     border-top-left-radius:5px ; 
     background: #D5573B;
 }
-.wrapper .options .button a{ 
+.pricing .options .button a{ 
     display: block; 
     color: white; 
 } 
