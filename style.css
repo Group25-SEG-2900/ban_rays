@@ -110,6 +110,7 @@ body{
     margin-top: 10px;
     letter-spacing: 2px;
     font-family: Calibri ; 
+    text-align: center;
 }
 .wrapper .team .team_member p.role{
     color: #1D3557;
@@ -119,6 +120,7 @@ body{
     margin-bottom: 5px;
     font-weight: bold;
     font-family: Calibri ; 
+    text-align: center;
 } 
 .wrapper .team .team_member p{
     font-size: 14px; 
