@@ -413,3 +413,10 @@ p{
   cursor: pointer;
   background-color: #c04c32;
 }
+
+.mainVideo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -150;
+}
