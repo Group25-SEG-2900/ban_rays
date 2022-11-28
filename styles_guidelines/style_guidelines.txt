@@ -17,9 +17,9 @@ Button colours: Red?
 
 
 Typography
-Titles: Calibri, bold, 52px
-Subtitles: Calibri, 30px 
-Paragraphs:Calibri , 18px 
+Titles: Times New Roman , bold, 52px
+Subtitles: Times New Roman , 30px 
+Paragraphs: Times New Roman  , 18px 
 
 
 Letter spacing: 2px
